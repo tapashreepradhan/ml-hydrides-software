@@ -19,5 +19,12 @@
     - Stable/Unstable binary prediction classification for a pernuted chemistry
 
 3. High Entropy Alloy Properties = function(entropy) -> database feature: Entropy of Formation
-    - creep resistance
+- creep resistance
     - tensile strength
+
+## Relevent Literature:
+- Witman, M.; Ek, G.; Ling, S.; Chames, J.; Agarwal, S.; Wong, J.; Allendorf, M. D.; Sahlberg, M.; Stavila, V. 
+Data-Driven Discovery and Synthesis of High Entropy Alloy Hydrides with Targeted Thermodynamic Stability.
+Chem. Mater. 2021, 33, 4067–4076
+
+
