@@ -18,10 +18,20 @@
 2. Phase Stability Prediction:
     - Stable/Unstable binary prediction classification for a pernuted chemistry
 
-3. High Entropy Alloy Properties = function(entropy) -> database feature: Entropy of Formation
+3. High Entropy Alloy Properties = function(entropy) -> database feature: Entropy of Formation: we'll only predict the target properties.
 - creep resistance
     - tensile strength
 
+## Graph Neural Networks: hydride systems as nodes
+
+## Only ML: all the models in sci-kit learn
+comparision between the two.
+
+## Features:
+1. Composition based featurization
+2. Structure based featurization
+
+## PCA vs Non-PCA Analysis
 ## Relevent Literature:
 - Witman, M.; Ek, G.; Ling, S.; Chames, J.; Agarwal, S.; Wong, J.; Allendorf, M. D.; Sahlberg, M.; Stavila, V. 
 Data-Driven Discovery and Synthesis of High Entropy Alloy Hydrides with Targeted Thermodynamic Stability.
