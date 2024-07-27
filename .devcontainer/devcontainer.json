@@ -1,13 +1,18 @@
 {
-    "name": "Python Dev Container",
-    "dockerFile": "Dockerfile",
-    "context": "..",
-    "settings": {
-      "python.pythonPath": "/usr/local/bin/python"
+  "name": "Jupyter Notebook Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.9"
+        }
     },
-    "extensions": [
-      "ms-python.python"
-    ],
-    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
-    "remoteUser": "vscode"
-  }
+    "postCreateCommand": "pip install -r requirements.txt",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
+    }
+}
