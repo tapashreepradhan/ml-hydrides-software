@@ -1,5 +1,7 @@
+jupyter
 numpy
 pandas
 seaborn
 matplotlib
 pymatgen
+scikit-learn
